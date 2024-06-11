@@ -10,7 +10,7 @@
 
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['runBatch'])) {
-        // Remplacez 'chemin/vers/votre/fichier.bat' par le chemin de votre fichier batch
+        //chemin relatif batch file
         $cheminFichierBatch = 'batchfiles\test.bat';
 
         // Exécute le fichier batch
