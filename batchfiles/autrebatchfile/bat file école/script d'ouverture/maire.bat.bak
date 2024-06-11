@@ -1,0 +1,3 @@
+net use R: \\SRVPATRICK\municipalite\Presolution /persistent:yes
+net use M: \\SRVPATRICK\municipalite\Pmaire /persistent:yes
+net use H: \\SRVPATRICK\municipalite\users\%username% /persistent:yes

@@ -1,0 +1,1 @@
+net use H: \\SRVPATRICK\municipalite\users\%username% /persistent:yes
