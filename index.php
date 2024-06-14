@@ -11,10 +11,12 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['runBatch'])) {
         //chemin relatif batch file
-        $cheminFichierBatch = 'batchfiles\test.bat';
+        $cheminFichierBatch = 'batchfiles\outil_reparation_image_systeme.bat';
 
         // Exécute le fichier batch
-        exec($cheminFichierBatch);
+        //exec($cheminFichierBatch);
+        system($cheminFichierBatch);
+        //shell_exec($cheminFichierBatch);
     }
     ?>
 

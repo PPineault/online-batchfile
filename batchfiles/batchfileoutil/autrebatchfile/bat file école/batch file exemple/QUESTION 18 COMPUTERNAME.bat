@@ -1,2 +1,0 @@
-echo %COMPUTERNAME%
-PAUSE

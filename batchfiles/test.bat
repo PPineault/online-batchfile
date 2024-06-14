@@ -1,1 +1,2 @@
-md C:\bananes
+echo bye
+pause

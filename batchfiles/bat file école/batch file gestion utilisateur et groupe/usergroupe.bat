@@ -1,1 +1,0 @@
-net localgroup %1 %2 /add
